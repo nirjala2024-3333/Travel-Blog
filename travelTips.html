@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Tips | Travel Blog</title>
+  <link rel="stylesheet" href="traveltips.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="overlay"></div>
+
+  <nav>
+    <a href="homePage.html">Home</a>
+    <a href="destination.html">Destinations</a>
+    <a href="#" id="this">Travel Tips</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <div class="card-container">
+    <div class="card">
+      <section class="tips-filter">
+        <label for="category">Category:</label>
+        <select id="category">
+          <option value="all">All</option>
+          <option value="budget">Budget Tips</option>
+          <option value="essentials">Travel Essentials</option>
+          <option value="packing">Packing Guides</option>
+        </select>
+      </section>
+
+      <section class="tips-list">
+       <div class="tip-post" data-category="budget">
+      <h3>A beginner’s guide to travelling on a budget</h3>
+      <p><strong>Author:</strong> Sahaj Palla | <strong>Date:</strong> Jan 10, 2025</p>
+      <p>Start your travel journey with smart, money-saving strategies tailored for first-timers.</p>
+      <a href="https://axio.co.in/blogs/a-beginners-guide-to-travelling-on-a-budget/" class="read-more">Read Full Post</a>
+    </div>
+
+    <div class="tip-post" data-category="budget">
+      <h3>How to make your money last when you travel</h3>
+      <p><strong>Author:</strong> Matt | <strong>Date:</strong> Apr 16, 2025</p>
+      <p>Stretch your travel budget further with practical tips for lasting financial freedom on the road.</p>
+      <a href="https://www.nomadicmatt.com/travel-blogs/make-your-money-last/" class="read-more">Read Full Post</a>
+    </div>
+
+    <div class="tip-post" data-category="packing">
+      <h3>The ultimate packing list for all types of vacations</h3>
+      <p><strong>Author:</strong> TeamAcko | <strong>Date:</strong> May 22, 2024</p>
+      <p>Be ready for any getaway with this all-in-one packing list for every kind of trip.</p>
+      <a href="https://www.acko.com/travel-tips/the-ultimate-packing-list-for-all-types-of-vacations/" class="read-more">Read Full Post</a>
+    </div>
+
+    <div class="tip-post" data-category="budget">
+      <h3>14 best trips for travelling on a budget for solo & family travellers</h3>
+      <p><strong>Author:</strong> Upar Hotels | <strong>Date:</strong> 13 April 2024</p>
+      <p>Save big and travel smart with budget-friendly tips for both solo adventurers and families.</p>
+      <a href="https://uparhotels.com/blogs/14-best-tips-for-travelling-on-a-budget-for-solo-family-travellers" class="read-more">Read Full Post</a>
+    </div>
+
+    <div class="tip-post" data-category="essentials">
+      <h3>The best gear for travel</h3>
+      <p><strong>Author:</strong> Wirecutter | <strong>Date:</strong> Apr 24, 2025</p>
+      <p>Explore top-rated travel gear that combines comfort, convenience, and durability.</p>
+      <a href="https://www.nytimes.com/wirecutter/reviews/travel-guide/" class="read-more">Read Full Post</a>
+    </div>
+
+    <div class="tip-post" data-category="essentials">
+      <h3>50 travel essentials you probably haven’t thought of, but definitely need</h3>
+      <p><strong>Author:</strong> Kaila Browner | <strong>Date:</strong> Mar 8, 2025</p>
+      <p>Uncover the often-overlooked items that make all the difference in your travel experience.</p>
+      <a href="https://www.buzzfeed.com/kailabrowner/travel-essentials-you-probably-havent-thought-of" class="read-more">Read Full Post</a>
+    </div>
+
+    <div class="tip-post" data-category="packing">
+      <h3>20 essential travel packing tips: How to pack like a pro</h3>
+      <p><strong>Author:</strong> Erincondren | <strong>Date:</strong> Jan 10, 2025</p>
+      <p>Master the art of packing efficiently with expert-approved tips for every trip.</p>
+      <a href="https://www.erincondren.com/inspiration-center-top-travel-packing-tips" class="read-more">Read Full Post</a>
+    </div>
+
+    <div class="tip-post" data-category="packing">
+      <h3>Travel packing checklist</h3>
+      <p><strong>Author:</strong> John Doe | <strong>Date:</strong> Feb 10, 2025</p>
+      <p>Stay organized and stress-free with our complete checklist for both leisure and business travel.</p>
+      <a href="https://www.travelers-checklist.com/" class="read-more">Read Full Post</a>
+    </div>
+      </section>
+    </div>
+  </div>
+  <script src="traveltips.js">
+  </script>
+</body>
+</html>
